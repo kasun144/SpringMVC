@@ -1,0 +1,8 @@
+CREATE TABLE `product` (
+    `id` INT(11) NOT NULL AUTO_INCREMENT,
+    `name` VARCHAR(45) NOT NULL,
+    `brand` VARCHAR(45) NOT NULL,
+    `madein` VARCHAR(45) NOT NULL,
+    `price` FLOAT NOT NULL,
+    PRIMARY KEY (`id`)
+)  ENGINE=INNODB DEFAULT CHARSET=UTF8;
